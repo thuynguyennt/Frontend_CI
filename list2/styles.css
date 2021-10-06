@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    width: 1920px;
+}
+.container {
+    background-color: #1A1A1A;
+}
+.container .navbar {
+    display: flex;
+    height: 96px;
+    color: #FFFF;
+    justify-content: space-between;
+    border-bottom: 1px solid #5B5B5B;
+    padding-left: 196px;
+    padding-right: 196px;
+}
+.container .navbar .title-left {
+    margin-top: 33.5px;
+    font-size: 21px;
+}
+.container .navbar .title-right {
+    display: flex;
+}
+.container .navbar .title-right .btn {
+    background-color: #1A1A1A;
+    border: none;
+}
+.container .navbar .title-right .btn i {
+    color: #FFFFFF;
+    font-size: 20.33px;
+    padding-right: 34.6px;
+    margin-top: 25px;
+}
+.container .navbar .title-right .form input{
+    width: 234px;
+    height: 54px;
+    background-color: #2E2E2E;
+    border-radius: 32.5px;
+    margin-top: 21px;
+    color: #FFFFFF;
+    border: 1px solid #2E2E2E ;
+}
+.title-right .form .inputIcon {
+    margin-left: -37px;
+}
+.title-right .form .inputIcon .fa-user {
+    background-color: #D86767;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.title-right .form .media {
+    margin-top: -50px;
+    margin-left: 60px;
+}
+::placeholder {
+    padding-left: 111.94px;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+}
+.content {
+    padding-left: 196px;
+    padding-right: 196px;
+    margin-top: 24px;
+    height: 1080px;
+}
+.content .btn {
+    width: 218px;
+    height: 44px;
+    text-align: center;
+    border-radius: 38px;
+    background-color: #4D64DA;
+    color: #FFFFFF;
+    border: 1px solid #4D64DA;
+    margin-bottom: 24px;
+}
+.content .btn span {
+    margin-right: 10px;
+}
+.content #customers {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    color: #FFFFFF;
+}
+
+.content #customers #rowTwo:hover {
+    border-radius: 36px;
+    background-color: #2E2E2E;
+}
+.content #customers tr td {
+    font-size: 16px;
+    padding-left: 51.63px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.content #customers #rowOne td {
+    font-size: 17px;
+    border-bottom: 1px solid #5B5B5B;
+    border-left: 1px solid #5B5B5B;
+}
+.content #customers #rowOne td:first-child {
+    border-left: none;
+}
+.content #customers tr td span .fa-user{
+    margin-right: 16px;
+    font-size: 28.54px;
+}
+.content #customers tr td span #colorOne {
+    background-color: #C167D8;
+    padding: 8px;
+    border-radius: 50%;
+}
+.content #customers tr td span #colorTwo {
+    background-color: #679BD8;
+    padding: 8px;
+    border-radius: 50%;
+}
+.content #customers tr td span #colorThree {
+    background-color: #ADD867;
+    padding: 8px;
+    border-radius: 50%;
+}
+.content #customers tr td span #colorFour {
+    background-color: #D86767;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer {
+    background-color: #6778d2;
+    display: flex;
+    height: 96px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 196px;
+}
+.footer .name {
+    margin-right: 209px;
+    display: flex;
+    align-items: center;
+}
+.footer .name .fa-circle {
+    font-size: 36px;
+    margin-right: 8px;
+}
+.footer .clients {
+    margin-right: 112px;
+    text-align: center;
+}
+.footer .clients .fa-user-friend {
+    font-size: 24px;
+}
+.footer .setting {
+    text-align: center;
+}
+.footer .setting .fa-cog {
+    font-size: 12px;
+}

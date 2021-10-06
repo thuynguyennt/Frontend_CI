@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    sintegrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <div class="container">
+            <div class="title">
+                <div class="title-left">
+                    <button class="btn"><i class="fas fa-chevron-left"></i></button>
+                    <p>Tạo hồ sơ khách hàng</p>
+                </div>
+                <div class="title-right">
+                    <button class="btn"><i class="fas fa-search"></i></button>
+                    <div class="form">
+                        <input type="text" id="name"  placeholder="Admin">
+                        <span class="inputIcon"><i class="fas fa-user"></i></span>
+                        <p class="media">Sapioso Media</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <i class="fas fa-camera"></i> 
+                    <p>Upload image</p>
+                </div>
+                <div class="formInfo">
+                    <form>
+                        <label>Tên KH:</label><br>
+                        <input type="text" id="fname" class="wide" placeholder="Trần Quốc Anh"><br>
+                        <label>Mã KH:</label><br>
+                        <input type="text" id="code" class="wide" placeholder="123456789"><br>
+                        <label>Giới tính:</label><br>
+                        <input type="radio" id="male" value="Nam">
+                        <label>Nam</label>
+                        <input type="radio" id="female" value="Nữ">
+                        <label>Nữ</label><br>
+                        <input class="wide" id="zero"><br>
+                        <label class="date">Ngày sinh:</label><br>
+                        <input type="text" id="date" class="wide" placeholder="24/10/1999"><br>
+                        <label>Điện thoại</label><br>
+                        <input type="text" id="number" class="wide" placeholder="0793250398"><br>
+                        <label>Địa chỉ:</label><br>
+                        <input type="text" id="address" class="wide" placeholder="Giáp Nhất, Thanh Xuân, Hà Nội"><br>
+                        <label>Email:</label><br>
+                        <input type="text" id="mail" class="wide" placeholder="quanganhtrn2908@gmail.com"><br>
+                        <label>Nguồn:</label><br>
+                        <input type="text" id="source" class="wide" placeholder="Facebook"><br>
+                        <button type="reset" value="Reset" class="bto btn1">Cancel</button>
+                        <button type="submit" value="Submit" class="bto btn2">Create</button>
+                    </form>
+                </div>
+                 
+            </div>
+    
+        </div>
+        <div class="footer">
+            <div class="name">
+                <i class="fas fa-circle"></i>
+                <p>Name</p>
+            </div>
+            <div class="clients">
+                <i class="fas fa-user-friends"></i>
+                <p>Clients</p>
+            </div>
+            <div class="setting">
+                <i class="fas fa-cog"></i>
+                <p>Settings</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    width: 1920px;
+}
+.container-fluid .container {
+    width: 1920px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+
+
+.container .title {
+    width: 1920px;
+    display: flex;
+    /* margin-top: 21px; */
+    border-bottom: 1px solid #5B5B5B;
+    align-items: center;
+}
+.container .title .title-left {
+    display: flex;
+}
+.container .title .title-left .btn {
+    background-color: #1A1A1A;
+    border: none;
+    margin-left: 200px;
+}
+.container .title .title-left .btn .fa-chevron-left {
+    color: #FFFFFF;
+    font-size: 18.7px;
+}
+.container .title .title-left p {
+    width: 238px;
+    font-size: 21px;
+    margin-left: 20.2px;
+}
+
+.container .title .title-right {
+    display: flex;
+    margin-left: 970px;
+    height: 60px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.container .title .title-right .btn {
+    background-color: #1A1A1A;
+    border: none;
+}
+.container .title .title-right .btn i {
+    color: #FFFFFF;
+    font-size: 20.33px;
+    padding-right: 34.6px;
+}
+.container .title .title-right .form input{
+    width: 234px;
+    height: 54px;
+    background-color: #2E2E2E;
+    border-radius: 32.5px;
+    border: 1px solid #2E2E2E ;
+    color: #FFFFFF;
+}
+
+.title-right .form .inputIcon {
+    margin-left: -37px;
+}
+.title-right .form .inputIcon .fa-user {
+    background-color: #D86767;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.title-right .form .media {
+    margin-top: -50px;
+    margin-left: 60px;
+}
+.title-right .form ::placeholder {
+    padding-left: 111.94px;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+}
+.content {
+    display: flex;
+    margin-top: 56px;
+}
+.content .image {
+    width: 228px;
+    height:228px;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+    text-align: center;
+    margin-left: 706px;
+    margin-right: 32px;
+}
+.content .image .fa-camera {
+    margin-top: 89.17px;
+}
+.content .formInfo label {
+    font-size: 15px;
+    color: #C1C1C1;
+}
+.content .formInfo input {
+    /* width: 488px; */
+    padding: 16px 0;
+    background-color: #1A1A1A;
+    border: none;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 12px;
+    position: relative
+}
+.content .formInfo .wide {
+    width: 488px;
+}
+.content .formInfo ::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.formInfo .check {
+    display: flex;
+}
+.content .formInfo #male {
+    margin-top: 16px;
+}
+.content .formInfo #zero {
+    height: 0px;
+    margin-top: -20px;
+    top: -6px;
+}
+.content .formInfo #male {
+    margin-right: 20px;
+}
+.content .formInfo #female {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.content .formInfo .bto {
+    width: 163px;
+    height: 44px;
+    border-radius: 38px;
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 55px;
+}
+.content .formInfo .btn1 {
+    margin-left: 140px;
+    margin-right: 32px;
+    border: 1px solid #FFFFFF;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+.content .formInfo .btn2 {
+    background-color: #4D64DA;
+    border:none;
+    color: #FFFFFF;
+}
+.content .image .delete {
+    width: 228px;
+    height: 44px;
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 16px;
+    border-radius: 38px;
+    border: none;
+}
+.footer {
+    background-color: #6778d2;
+    display: flex;
+    height: 96px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 196px;
+}
+.footer .name {
+    margin-right: 209px;
+    display: flex;
+    align-items: center;
+}
+.footer .name .fa-circle {
+    font-size: 36px;
+    margin-right: 8px;
+}
+.footer .clients {
+    margin-right: 112px;
+    text-align: center;
+}
+.footer .clients .fa-user-friend {
+    font-size: 24px;
+}
+.footer .setting {
+    text-align: center;
+}
+.footer .setting .fa-cog {
+    font-size: 12px;
+}
