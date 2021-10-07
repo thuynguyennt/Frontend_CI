@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    width: 100%;
+    display: flex;
+}
+.container-fluid .side-bar {
+    width: 30%;
+    background-color: #4f61bd;
+    height: 90px;
+}
+.container-fluid .container {
+    width: 70%;
+    background-color: #1A1A1A;
+    height: 100vh;
+    /* padding-right: 15%;
+    padding-left: 10%; */
+}
+.container-fluid .side-bar .toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.container-fluid .side-bar .toolbar span {
+    font-size: 10px;
+}
+.container-fluid .side-bar .toolbar img {
+    width: 30%;
+}
+.container-fluid .side-bar .toolbar .bar img {
+    width: 50%;
+}
+.container-fluid .side-bar .list-nav {
+    margin-top: -10%;
+    display: flex;
+    padding-left: 20%;
+    margin-top: -13%;
+}
+.container-fluid .side-bar .list-nav .friends {
+    width: 30%;
+    margin-right: 10px;
+}
+.container-fluid .side-bar .list-nav span {
+    font-size: 10px;
+}
+
+
+span {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+.container-fluid .side-bar .list-nav {
+    margin-left: 25px;
+}
+.container-fluid .container .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 33.5px 10%;
+    border-bottom: 1px solid #E5E5E5;
+}
+.container-fluid .container .navbar .title span {
+    font-size: 21px;
+}
+.container-fluid .container .navbar .nav-input input {
+    width: 234px;
+    height: 54px;
+    border-radius: 32.5px;
+    background-color: #2E2E2E;
+    border: none;
+}
+.container-fluid .container .navbar .nav-input .btn{
+    background-color: #1A1A1A;
+    border: none;
+    margin-right: 30.14px;
+}
+.container-fluid .container .navbar .nav-input img {
+    margin-left: -20%;
+    position: relative;
+    top: 11.5px;
+}
+.container-fluid .container .content {
+    margin-top: 24px;
+    margin-left: 76px;
+}
+.container-fluid .container .content .border {
+    width: 218px;
+    height: 44px;
+    background-color: #4D64DA;
+    border-radius: 38px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.container-fluid .container .content .border img {
+    margin-left: 5px;
+    position: relative;
+    top: 7px;
+}
+.container-fluid .container .content .tablelist table {
+    border-collapse: collapse;
+    /* width: 90%; */
+}
+.container-fluid .container .content .tablelist table td {
+    padding: 20px 30px
+}
+.container-fluid .container .content .tablelist table tr .check {
+    background-color: #1A1A1A;
+}
+.container-fluid .container .content .tablelist table tr:first-child {
+    border-bottom: 1px solid #E5E5E5;
+}
+.container-fluid .container .content .tablelist table tr .road {
+    border-left: 1px solid #E5E5E5;
+    
+}
+.container-fluid .container .content .tablelist table tr td .name{
+    position: relative;
+    top: -10px;
+
+}
+
+@media only screen and (max-width: 545px){
+    .container-fluid {
+        flex-wrap: wrap;
+    }
+    .container-fluid .side-bar {
+        /* display: none; */
+        width: 100%;
+
+    }
+    .container-fluid .container {
+        width: 100%;
+    }
+    .container-fluid .container .navbar {
+        /* padding: 10px; */
+        height: 50px;
+    }
+    .container-fluid .container .navbar .title {
+        width: 35%;
+        margin-top: -10px;
+    }
+    .container-fluid .container .navbar .nav-input {
+        margin-top:-5%;
+    }
+    .container-fluid .container .navbar .title span {
+        font-size: 15px;
+    }
+    .container-fluid .container .navbar .nav-input input {
+        width: 60%;
+        height: 30px;
+        margin-left: 30%;
+        position: relative;
+        bottom: 25px;
+    }
+    .container-fluid .container .navbar .nav-input img {
+        margin-left: -20%;
+        width: 10%;
+        top: -20px;
+    }
+    .container-fluid .container .navbar .nav-input .btn {
+        position: relative;
+        top: 22px;
+        right: 15px;
+        width: 80%;
+    }
+    .container-fluid .container .content {
+        width: 100%;
+        /* margin-top: 24px;
+        margin-left: 76px; */
+    }
+    .container-fluid .container .content .tablelist table td {
+        padding: 5px 10px;
+    }
+    span {
+        font-size: 5%;
+    }
+    .container-fluid .container .content .tablelist {
+        margin-left: -17%;
+    }
+    img {
+        width: 20%;
+    }
+    .container-fluid .container .content .border {
+        width: 200px;
+        height: 30px;
+    }
+    .container-fluid .container .content .border span {
+        position: relative;
+        top: -20%;
+    }
+    .container-fluid .container .content .border img {
+        width: 12%;
+    }
+}
