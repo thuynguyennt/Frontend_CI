@@ -1,0 +1,218 @@
+.main {
+    padding: 0;
+}
+.main .header {
+    padding: 24px 96px;
+}
+.header span {
+    margin-left: 2rem;
+    font-size: 2.3rem;
+}
+.main_tracker .main_head .image_banner {
+    position: relative;
+}
+.main_tracker .main_head .image_banner img {
+    width: 100%;
+    height: 100%;
+}
+.main_tracker .main_head .banner_content {
+    position: absolute;
+    top: 13rem;
+    padding: 0 5rem;
+}
+.main_tracker .main_head .banner_content #logo {
+    width: 40%;
+    margin-left: 9rem;
+}
+.main_tracker .main_head .banner_content .time_price {
+    display: flex;
+    margin-top: 150px;
+    background: #1A1A1ABF;
+    padding: 14px 36px;
+    border-radius: 16px;
+}
+.main_head .banner_content .time_price .left {
+    width: 60%;
+    color: #fff;
+}
+.main_head .banner_content .time_price .left h2 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.main_head .banner_content .time_price .left h3 {
+    font-size: 16px;
+    margin: 16px 0;
+}
+.main_head .banner_content .time_price .left p {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.main_head .banner_content .time_price .right {
+    width: 40%;
+    color: #fff;
+    margin-left: 30%;
+}
+.main_head .banner_content .time_price .left .take_add {
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.main_head .banner_content .time_price .left .take_add span{
+    position: relative;
+    top: -0.5rem;
+    margin-right: 1rem;
+}
+.main_head .banner_content .time_price .right .bill {
+    display: flex;
+}
+.main_head .banner_content .time_price .right .bill #count {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.main_head .banner_content .time_price .right .bill p:last-child {
+    font-size: 2.5rem;
+    font-weight:600 ;
+}
+.content_rule {
+    width: 100%;
+    padding: 96px 94px;
+    color: #fff;
+}
+.content_rule .on_content {
+    display: flex;
+}
+.content_rule .on_content .on_left {
+    width: 45%;
+}
+.content_rule .on_content .on_left h2 {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+.content_rule .on_content .on_left p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #9F9F9F;
+}
+.content_rule .on_content .on_image {
+    width: 45%;
+}
+.content_rule .on_content .on_image img {
+    width: 100%;
+    margin-left: 10%;
+}
+.content_rule .down_content {
+    display: flex;
+    margin-top: 96px;
+}
+.content_rule .down_content .down_left {
+    width: 45%;
+}
+.content_rule .down_content .down_left img {
+    width: 100%;
+}
+.content_rule .down_content .down_right {
+    width: 45%;
+    margin-left: 10%;
+}
+.content_rule .down_content .down_right .note {
+    margin-top: 3rem;
+}
+.content_rule .down_content .down_right .note h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.content_rule .down_content .down_right .note p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #9F9F9F;
+}
+
+@media screen and (max-width: 1024px) {
+    .main_tracker .main_head .banner_content .time_price{
+        margin-top: 80px;
+    }
+    .content_rule .on_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content_rule .on_content .on_left {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .content_rule .on_content .on_image {
+        width: 80%;
+    }
+    .content_rule .down_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content_rule .down_content .down_left {
+        width: 80%;
+        margin-left: 7%;
+        position: relative;
+        top: 45rem;
+    }
+    .content_rule .down_content .down_right {
+        width: 100%;
+        position: relative;
+        top: -60rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .down_header {
+        width: 100%;
+    }
+    .down_header .title_white span {
+        color: #fff;
+        position: relative;
+        left: 30%;
+        bottom: 2rem;
+    }
+    .down_header .title_white img {
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .main_tracker .main_head .banner_content {
+        padding: 0;
+    }
+    .main_tracker .main_head .banner_content .time_price {
+        background: none;
+    }    
+    .main_tracker .main_head .banner_content #logo {
+        display: none;
+    }
+    .main_head .banner_content .time_price .right {
+        display: none;
+    }
+    .main_head .banner_content .time_price {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        width: 100%;
+    }
+    .main_head .banner_content .time_price .left{
+        width: 100%;
+    }
+    .content_rule {
+        margin-top: 20rem;
+        width: 100%;
+        padding: 0;
+    }
+    .content_rule .down_content .down_left {
+        position: relative;
+        top: -5rem;
+    }
+    .content_rule .down_content .down_right {
+        width: 100%;
+        position: relative;
+        top: 0; 
+        padding-right: 1.5rem;
+    }
+    .content_rule .on_content .on_left {
+        margin-top: 3rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}

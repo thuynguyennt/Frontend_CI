@@ -7,8 +7,9 @@
 .container-fluid {
     width: 100%;
     display: flex;
-    height: 130vh;
+    height: 100vh;
 }
+
 .container-fluid .side-bar {
     width: 20%;
     background-color: #414e8b;
@@ -41,7 +42,9 @@
 .container-fluid .container {
     width: 80%;
     background-color: #1A1A1A;
-    height: 130vh;
+    height: 100vh;
+    /* height: calc(100vh - 96px); */
+    /* height: 130vh; */
 }
 
 span {
@@ -222,269 +225,94 @@ span {
     color: #fff;
 }
 
-@media only screen and (max-width: 545px) {
-    .container-fluid {
-        flex-wrap: wrap;
-    }
-    .container-fluid .side-bar {
-        width: 100%;
-        /* height: 86px; */ 
-    }
-    .container-fluid .side-bar .toolbar {
-        display: flex;
-    }
-    .container-fluid .side-bar .toolbar span {
-        font-size: 10px;
-    }
-    .container-fluid .side-bar .bar {
-        width: 100%;
-    }
+@media screen and (max-width: 545px) {
     .container-fluid .side-bar .toolbar .round {
-        margin-bottom: 0;
         padding: 0;
+        padding-top: 50%;
     }
-    .container-fluid .side-bar .toolbar .list-nav .friends{
-        border-left: transparent;
-    }
-    .container-fluid .side-bar .toolbar .list-nav .friends img {
-        width: 100%;
-    }
-    
-    .container-fluid .container {
-        width: 100%;
-        height: 150vh;
-    }
-    .container-fluid .container .navbar {
-        height: 50px;
-    }
-    .container-fluid .container .navbar .title {
-        width: 35%;
-        margin-top: -10px;
-    }
-    .container-fluid .container .navbar .nav-input {
-        margin-top:-5%;
-    }
-    .container-fluid .container .navbar .title span {
-        font-size: 15px;
-    }
-    .container-fluid .container .navbar .nav-input input {
-        width: 60%;
-        height: 30px;
-        margin-left: 30%;
+    .container-fluid .side-bar .toolbar .round span {
         position: relative;
-        bottom: 25px;
+        top: 0;
     }
-    .container-fluid .container .navbar .nav-input img {
-        margin-left: -20%;
-        width: 10%;
-        top: -20px;
+    .container-fluid .side-bar .toolbar .friends {
+        margin-left: -37%;
     }
-    .container-fluid .container .navbar .nav-input .btn {
-        position: relative;
-        top: 22px;
-        right: 15px;
-        width: 80%;
-    }
-    .container-fluid .container .content {
-        width: 100%;
-        margin-top: 24px;
-        margin-left: 76px;
-     }
-    .container-fluid .container .content .tablelist table td {
-        padding: 5px 10px;
-    }
-    span {
-        font-size: 5%;
-    }
-    .container-fluid .container .content .tablelist {
-        margin-left: -17%;
-    }
-    img {
-        width: 20%;
-    }
-    .container-fluid .container .content .border {
-        width: 200px;
-        height: 30px;
-    }
-    .container-fluid .container .content .border span {
-        position: relative;
-        top: -20%;
-    }
-    .container-fluid .container .content .border img {
-        width: 12%;
-    } 
-    .container .navbar .createTitle {
-        width: 40%;
-        margin-top: -20px;
-    }
-    .container .navcontent .image_nun {
-        width: 100%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-    }
-    .container .navcontent .image_nun img{
-        width: 80%;
-    }
-    .container .navbar .createTitle img {
-        width: 10%;
-    }
-    .container .navbar .createTitle span {
-        font-size: 15px;
-    }
-    .container .navcontent {
-        flex-wrap: wrap;
-    }
-    .container .navcontent .image {
-       width: 60%;
-       height: 30vh;
-       margin-left: 10%;
-       margin-bottom: 20px;
-    }
-    .container .navcontent .contentForm {
-        width: 100%;
-    }
-    .container .navcontent .btn-submit {
-        padding-left: 0;
-    }
-}  
-
-/* ------ */
-@media only screen and (max-width: 768px) {
-    .container-fluid {
-        flex-wrap: wrap;
-    }
-    .container-fluid .side-bar {
-        width: 100%;
-        height: 96px;
-    }
-    .container-fluid .side-bar .toolbar span {
-        font-size: 16px;
+    .container-fluid .side-bar .toolbar .setting {
+        margin-left: -36%;
     }
     .container-fluid .side-bar .toolbar img {
-        width: 30%;
-    } 
-    .container-fluid .side-bar .toolbar .round img {
-        /* position: relative;
-        top: 5px; */
-    }
-    .container-fluid .side-bar .toolbar .bar img {
-        width: 100%;
-    }
-    .container-fluid .side-bar .list-nav {
-        margin-top: -15%;
-        margin-left: 20%;
-        display: flex;
-    }
-    .container-fluid .side-bar .list-nav .friends {
-        width: 20%;
-        margin-right: 20px;
-    }
-    .container-fluid .side-bar .list-nav .setting {
         width: 20%;
     }
-    .container-fluid .side-bar .list-nav .friends span {
-        font-size: 14px;
+    .container-fluid .side-bar .toolbar .friends img {
+        width: 20%;
     }
-    .container-fluid .side-bar .list-nav .setting span {
-        font-size: 14px;
-    }
-    .container-fluid .side-bar .list-nav img {
-        width: 30%;
-        margin-top: 50px;
-        /* position: relative;
-        top: 10px; */
-    }
-    .container-fluid .container {
-        width: 100%;
-        height: 150vh;
-    }
-    .container-fluid .container .navbar {
-        height: 50px;
+    .container-fluid .side-bar .bar img{
+        width: 50%;
+        margin-right: 30px;
     }
     .container-fluid .container .navbar .title {
-        width: 35%;
-        margin-top: -10px;
-    }
-    .container-fluid .container .navbar .nav-input {
-        margin-top:-5%;
+        width: 40%;
     }
     .container-fluid .container .navbar .title span {
-        font-size: 15px;
+        font-size: 14px;
     }
-    .container-fluid .container .navbar .nav-input input {
+    .container-fluid .container .navbar .nav-input input{
         width: 60%;
-        height: 30px;
-        margin-left: 30%;
-        position: relative;
-        bottom: 25px;
+        height:80%;
+        margin-left: 10%;
     }
     .container-fluid .container .navbar .nav-input img {
-        margin-left: -20%;
-        width: 10%;
-        top: -20px;
+        width: 8%;
+        left: 100%;
+        top: -60%;
     }
-    .container-fluid .container .navbar .nav-input .btn {
-        position: relative;
-        top: 22px;
-        right: 15px;
-        width: 80%;
-    }
-    /* .container-fluid .container .content {
-        width: 100%;
-        margin-top: 24px;
-        margin-left: 10%;
-     } */
-    .container-fluid .container .content .tablelist table td {
-        padding: 5px 10px;
-    }
-    .container-fluid .container .content .tablelist {
-        margin-left: -5%;
-    }
-    img {
-        width: 20%;
+    .container-fluid .container .navbar .nav-input .btn img {
+         width: 50%;
+         margin-left: 100%;
+         left: 100%;
     }
     .container-fluid .container .content .border {
-        width: 200px;
-        height: 30px;
+        width: 70%;
+        height: 5vh;
     }
-    .container-fluid .container .content .border span {
+    .container-fluid .container .content .tablelist {
         position: relative;
-        top: -20%;
-    }
-    .container-fluid .container .content .border img {
-        width: 12%;
-    } 
-    .container .navbar .createTitle {
-        width: 40%;
-        margin-top: -20px;
-    }
-    .container .navcontent .image_nun {
-        width: 100%;
-        margin-right: 5%;
-        margin-bottom: 30px;
-    }
-    .container .navcontent .image_nun img{
-        width: 80%;
-    }
-    .container .navbar .createTitle img {
-        width: 10%;
-    }
-    .container .navbar .createTitle span {
-        font-size: 15px;
-    }
-    .container .navcontent {
-        flex-wrap: wrap;
-    }
-    .container .navcontent .image {
-       width: 60%;
-       height: 30vh;
-       margin-left: 10%;
-       margin-bottom: 20px;
-    }
-    .container .navcontent .contentForm {
+        right: 10%;
         width: 100%;
     }
-    .container .navcontent .btn-submit {
-        padding-left: 0;
+    .container-fluid .container .content .tablelist table tr td {
+        padding: 0 3px;
     }
+    .container-fluid .container .content .tablelist table td  img {
+        width: 20%;
+    }
+    .container-fluid .container .content .tablelist table td input[type=checkbox] {
+        width: 10px;
+    }
+    span {
+        font-size: 50%;
+    }
+    .container-fluid .container .content .tablelist table tr td .name{
+        position: relative;
+        top: 0px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .container-fluid .container .content .tablelist {
+        width: 50%;
+    }
+    .container-fluid .container .content .tablelist table tr {
+        padding: 0;
+    }
+    .container-fluid .container .content .tablelist table td  img {
+        width: 20%;
+    }
+    .container-fluid .container .content .tablelist table td input[type=checkbox] {
+        width: 10px;
+    }
+    span {
+        font-size: 50%;
+    }
+   
 }

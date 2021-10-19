@@ -1,0 +1,102 @@
+@import 'colors';
+@import 'media_queries';
+
+.navbar_image {
+    opacity: 0;
+    @include tablet {
+        opacity: 1;
+    }
+}
+.wrap_sidebar {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 30px;
+    margin-bottom: 65px;
+
+    @include desktop {
+        width: 96px;
+    }
+
+    &--head {
+        .logo_light {
+            display: block;
+            @include tablet {
+                display: none;
+            }
+            @include desktop {
+                display: none;
+            }
+        }
+
+        .logo_light_small {
+            display: none;
+
+            @include tablet {
+                display: block;
+            }
+            @include desktop {
+                display: block;
+            }
+        }
+        
+    }
+    &--icon {
+        position: relative;
+        left: 4rem;
+        .nav_icon {
+            display: block;
+            @include desktop {
+                display: none;
+            }
+        }
+        .nav_small {
+            display: none;
+            @include desktop {
+                display: block;
+            }
+        }
+    }
+}
+.wrap_content {
+    padding: 0 24px;
+    position: relative;
+     img {
+         padding: 15px 0;
+     }
+     .white {
+        color: #fff;
+    }
+    span {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 15px;
+
+        @include desktop {
+            display: none;
+        }
+    }
+}
+
+.side_footer {
+    padding: 0 10px;
+    margin-top: 400px;
+    @include tablet {
+        display: none;
+    }
+    .dark {
+        background-color: #1F1F1F;
+    }
+    button {
+        border: none;
+        margin-right: 1rem;
+    }
+    .light {
+        width: 45%;
+        height: 35px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 1rem;
+    
+    }
+}

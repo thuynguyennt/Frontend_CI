@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    .nav_header {
+        width: 100%;
+    
+        .on_head {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
