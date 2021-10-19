@@ -24,12 +24,18 @@
     width: 40%;
     margin-left: 9rem;
 }
+.main_tracker .main_head .banner_content  #changecolor {
+    background: #FFFFFF80;
+}
 .main_tracker .main_head .banner_content .time_price {
     display: flex;
     margin-top: 150px;
     background: #1A1A1ABF;
     padding: 14px 36px;
     border-radius: 16px;
+}
+.main_head .banner_content .time_price #tent {
+    color: black;
 }
 .main_head .banner_content .time_price .left {
     width: 60%;
@@ -47,6 +53,9 @@
     font-size: 14px;
     margin-bottom: 16px;
 }
+.main_head .banner_content .time_price #rightchange {
+    color: black;
+}
 .main_head .banner_content .time_price .right {
     width: 40%;
     color: #fff;
@@ -56,6 +65,9 @@
     border: none;
     background: transparent;
     color: #fff;
+}
+.main_head .banner_content .time_price .left .take_add #add{
+    color: black;
 }
 .main_head .banner_content .time_price .left .take_add span{
     position: relative;
@@ -84,6 +96,9 @@
 }
 .content_rule .on_content .on_left {
     width: 45%;
+}
+.content_rule .on_content .on_left #color_change{
+    color: black;
 }
 .content_rule .on_content .on_left h2 {
     font-size: 2.5rem;
@@ -117,6 +132,9 @@
 }
 .content_rule .down_content .down_right .note {
     margin-top: 3rem;
+}
+.content_rule .down_content .down_right .note #change_feature {
+    color: black;
 }
 .content_rule .down_content .down_right .note h2 {
     font-size: 2.5rem;
@@ -157,6 +175,7 @@
         width: 100%;
         position: relative;
         top: -60rem;
+        margin-left: 0;
     }
 }
 
@@ -179,6 +198,8 @@
     }
     .main_tracker .main_head .banner_content .time_price {
         background: none;
+        position: relative;
+        top: 0;
     }    
     .main_tracker .main_head .banner_content #logo {
         display: none;
@@ -200,6 +221,10 @@
         width: 100%;
         padding: 0;
     }
+    .content_rule .on_content .on_left {
+        position: relative;
+        top: 2rem;
+    }
     .content_rule .down_content .down_left {
         position: relative;
         top: -5rem;
@@ -207,8 +232,10 @@
     .content_rule .down_content .down_right {
         width: 100%;
         position: relative;
-        top: 0; 
-        padding-right: 1.5rem;
+        top: -2rem; 
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 10rem;
     }
     .content_rule .on_content .on_left {
         margin-top: 3rem;
