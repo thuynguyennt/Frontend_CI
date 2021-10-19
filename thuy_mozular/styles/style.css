@@ -167,6 +167,7 @@ ul a span {
 
 .wrap_sidebar--icon .nav_icon {
   display: block;
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -182,6 +183,8 @@ ul a span {
 @media screen and (max-width: 1024px) {
   .wrap_sidebar--icon .nav_small {
     display: block;
+    position: relative;
+    right: 2rem;
   }
 }
 
@@ -232,6 +235,12 @@ ul a span {
   top: -20rem;
 }
 
+.side_footer .bg_change {
+  background-color: transparent;
+}
+.side_footer .dark {
+  background-color: transparent;
+}
 .side_footer .light {
   width: 45%;
   height: 35px;
@@ -239,10 +248,6 @@ ul a span {
   position: relative;
   top: -20.5rem;
   background-color: #1F1F1F;
- 
-}
-@media screen and (max-width: 768px) {
-
 }
 
 .header {
@@ -314,7 +319,7 @@ ul a span {
 
 @media screen and (max-width: 1024px) {
   .main .main_banner img {
-    width: 1005;
+    width: 100%;
   }
 }
 
@@ -366,7 +371,7 @@ ul a span {
 @media screen and (max-width: 1024px) {
   .main .main_image .main_item {
     width: 45%;
-    margin-right: 1rem;
+    padding-right: 1rem;
     margin-top: 2rem;
     height: 240px;
   }
@@ -437,51 +442,7 @@ ul a span {
 .lead {
   padding: 0 96px;
 }
-/* @media  screen and (max-width: 768px) {
-  .main {
-    padding: 0;
-  }
-  .main_time{
-    width: 100%;
-    padding: 0;
-  }
-  .time_image {
-    padding: 0 24px;
-  }
-  .time_content {
-    top: 40rem;
-  }
-  .time_content .description {
-     
-    }
-    .time_image .time_content .add_cart {
-      display: none;
-    }
-    .time_image .time_content .description .add_btn {
-      width: 100%;
-    }
-    
-    .main_descript .descript_left{
-      flex-wrap: wrap;
-    }
-    .main_descript .descript_left div {
-      width: 100%;
-    }
-    .main_descript img {
-      width: 100%;
-    }
-    .main_descript .descript_right {
-      flex-wrap: wrap;
-    }
-    .main_descript .descript_right img {
-      position: relative;
-      top: 70rem;
-    }
-    .main_descript .descript_right .flex_feature {
-      position: relative;
-      top: -10rem;
-    }
-} */
+
 
 @media screen and (max-width: 1024px) {
   .time_image .time_content {
@@ -718,9 +679,9 @@ html {
     display: flex;
   }
   .nav_header .down_header .personIcon img {
-    padding-right: 4rem;
-    width: 70%;
-    height: 100%;
+    padding-right: 2rem;
+    width: 50%;
+    height: 80%;
   }
 }
 

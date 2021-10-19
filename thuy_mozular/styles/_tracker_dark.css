@@ -133,7 +133,7 @@
 .content_rule .down_content .down_right .note {
     margin-top: 3rem;
 }
-.content_rule .down_content .down_right .note #change_feature {
+.content_rule .down_content .down_right .note .change_feature {
     color: black;
 }
 .content_rule .down_content .down_right .note h2 {
@@ -144,6 +144,17 @@
     font-size: 1.5rem;
     line-height: 1.7rem;
     color: #9F9F9F;
+}
+
+.side_footer .dark_border {
+    background-color: transparent;
+}
+
+.footer_count {
+    display: none;
+}
+.light_toggle {
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -177,9 +188,21 @@
         top: -60rem;
         margin-left: 0;
     }
+    .light_toggle {
+        display: block;
+        background-color: transparent;
+        border: none;
+        position: relative;
+        top: 400px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .light_toggle {
+        display: none;
+        position: relative;
+        
+    }
     .down_header {
         width: 100%;
     }
@@ -196,11 +219,7 @@
     .main_tracker .main_head .banner_content {
         padding: 0;
     }
-    .main_tracker .main_head .banner_content .time_price {
-        background: none;
-        position: relative;
-        top: 0;
-    }    
+    
     .main_tracker .main_head .banner_content #logo {
         display: none;
     }
@@ -212,12 +231,14 @@
         flex-wrap: wrap;
         background-color: transparent;
         width: 100%;
+        position: relative;
+        top: 2rem;
     }
     .main_head .banner_content .time_price .left{
         width: 100%;
     }
     .content_rule {
-        margin-top: 20rem;
+        margin-top: 22rem;
         width: 100%;
         padding: 0;
     }
@@ -241,5 +262,72 @@
         margin-top: 3rem;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+    }
+    .footer_count {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        position: relative;
+        bottom: 50rem;
+        border-top: 1px solid #E3E3E3;
+    }
+    .bg_footer {
+        background-color: #1F1F1F;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .bg_footer .letter {
+        color: #fff;
+    }
+    .footer_count p {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    .footer_count .add_cart {
+        background-color: #E1C579;
+        padding: 15px;
+        border-radius: 26px;
+    }
+    .footer_count span {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .footer_count img {
+        position: relative;
+        top: 0.5rem;
+    }
+    .main_tracker .main_head .banner_content #changecolor {
+        background: transparent;
+    }
+}
+@media screen and (min-width: 540px) {
+    .main_head .banner_content .time_price {
+        top: 9rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .main_head .banner_content .time_price {
+        top: 30rem;
+    }
+}
+@media screen and (max-width: 280px){
+    .content_rule {
+        position: relative;
+        top: 10rem;
+    }
+    .footer_count {
+        margin-top: 5rem;
+    }
+    .footer_count .add_cart {
+        padding: 7px;
+    }
+    .footer_count p {
+        font-size: 1.5rem;
+    }
+    .footer_count span {
+        font-size: 1rem;
     }
 }
