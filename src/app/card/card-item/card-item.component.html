@@ -1,0 +1,9 @@
+<div class="content-image">
+    <div class="image-item" *ngFor="let item of items">
+        <img [src]="item.img"/>
+        <div class="iten-price">
+            <h2>{{item.name}}</h2>
+            <p>Giá: <span>{{item.price}}</span></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+<section class="main">
+    <div class="main-head">
+        <div class="image-mobile">
+            <img src="assets/theme/mocile-banner.jpg">
+        </div>
+        <div class="image-add web-image" *ngFor="let home of homes">
+            <img src={{home.img}}>
+            <button class="discover-add" (click)="addbtn()">
+                <!-- KHÁM PHÁ THÊM -->
+                {{home.add}}
+            </button>
+        </div>
+        <!-- <div class="image-add" class="web-image">
+            <img src="assets/theme/web_1.png">
+            <button class="web_1" (click)="addbtn()">
+                KHÁM PHÁ THÊM
+            </button>
+        </div>
+        <div class="image-add" class="web-image">
+            <img src="assets/theme/HCO-sen.png">
+            <button class="HCO-sen" (click)="addbtn()">
+                KHÁM PHÁ THÊM
+            </button>
+        </div> -->
+    </div>
+
+    <div class="main-info">
+        <div class="address">
+            <h1>QUÁN MỚI</h1>
+            <div class="address-item">
+                <h2>SÂN BAY QUỐC TẾ ĐÀ NẴNG</h2>
+                <p>KHU VỰC CHECKIN GA QUỐC TẾ , SÂN BAY ĐÀ NẴNG, 62 TRẦN QUỐC TOẢN, QUẬN HẢI CHÂU, TP. ĐÀ NẴNG</p>
+                <P>TÌM ĐƯỜNG</P>
+            </div>
+        </div>
+        <div class="infomation">
+            <div class="info-item">
+                <img src="assets/theme/info1.jpg">
+                <p>HIGHLAND CẬP NHẬT GIÁ BÁN THEO CHÍNH SÁCH THUẾ GTGT MỚI</p>
+            </div>
+            <div class="info-item info-center">
+                <img src="assets/theme/info2.jpg">
+                <p>HIGHLAND CHÍNH THỨC RA MẮT ỨNG DỤNG DI ĐỘNG MỚI</p>
+            </div>
+            <div class="info-item">
+                <img src="assets/theme/info3.jpg">
+                <p>BÁNH TRUNG THU HIGHLANDS COFFE - chia sẻ tinh túy Đất Việt</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
