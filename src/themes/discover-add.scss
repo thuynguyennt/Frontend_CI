@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.main {
+    width: 100%;
+    .main-item {
+        display: flex;
+        padding: 64px 36px;
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin-top: 1rem;
+        }
+    }
+    .image1 {
+        background-image: url("../assets/theme/menu-PSD-bg.jpg");
+        color: $white;
+    }
+    .image2 {
+        background-image: url("../assets/theme/menu-FREEZE.jpg");
+        color: $green;
+        .item-image{
+            margin-left: 1.5rem;
+        }
+    }
+    .image3 {
+        background-image: url("../assets/theme/menu-TEA-bg.jpg");
+        color: $white;
+    }
+}

@@ -1,0 +1,72 @@
+@import 'variables';
+
+.main {
+    width: 100%;
+    .main-tea {
+        text-align: center;
+        padding: 36px;
+    
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: $brown;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.3rem;
+            color: $brown;
+            margin-top: 1rem;
+            line-height: 1.8rem;
+        }
+    }
+    .main-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 36px;
+      
+        .content-item {
+            width: 30%;
+            text-align: center;
+            img {
+                width: 100%;
+                height: 80%;
+                border: 1px solid rgb(201, 186, 186);
+            }
+            // img:hover.order {
+            //     display: block;
+            //     position: relative;
+            //     top: -4rem;
+            // }
+            .order {
+                padding: 0.6rem 3rem;
+                font-size: 21px;
+                font-weight: bold;
+                color: $brown;
+                border-radius: 10px;
+                // display: none;
+                opacity: 0;
+            }
+            .name-order {
+                span {
+                    font-weight: bold;
+                }
+            }
+            
+         }
+    }
+    #teapeach {
+        margin-top: 3rem;
+    }
+}
+
+.main-content .content-item:hover .order {
+    // display: block;
+    // text-align: center;
+    opacity: 1;
+    position: relative;
+    top: -10rem;
+    background-color: $pink;
+
+}

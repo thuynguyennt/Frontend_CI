@@ -1,0 +1,29 @@
+@import "variables";
+
+.content {
+    padding: 36px;
+    .content-title {
+        width: 60%;
+        h1 {
+            font-size: 2.5rem;
+            color: $brown;
+            margin-bottom: 36px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5rem;
+        }
+    }
+    .content-image {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 54px;
+        text-align: center;
+        .iten-price {
+            margin-top: 16px;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}

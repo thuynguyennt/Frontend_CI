@@ -11,7 +11,11 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { DiscoverComponent } from './home/discover/discover.component';
 import { HomeCoffeeComponent } from './home/home-coffee/home-coffee.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-
+import { SigninComponent } from './home/signin/signin.component';
+import { LoginComponent } from './home/login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { ModalComponent } from './home/modal/modal.component';
+import {MatDialogModule} from '@angular/material/dialog';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +26,16 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     CardItemComponent,
     FooterComponent,
     DiscoverComponent,
-    HomeCoffeeComponent
+    HomeCoffeeComponent,
+    SigninComponent,
+    LoginComponent
+    // ModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

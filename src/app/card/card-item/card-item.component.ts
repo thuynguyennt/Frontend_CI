@@ -12,7 +12,7 @@ export class CardItemComponent implements OnInit {
 
   // private subscription!: Subscription;
 
-  @Input() items = ''
+  @Input() items: any = [];
 
   constructor(private coffeService: CoffeeService) {
 

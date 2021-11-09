@@ -4,6 +4,8 @@ import { CoffeeComponent } from './home/coffee/coffee.component';
 import { ContactUsComponent } from './home/contact-us/contact-us.component';
 import { DiscoverComponent } from './home/discover/discover.component';
 import { HomeCoffeeComponent } from './home/home-coffee/home-coffee.component';
+import { LoginComponent } from './home/login/login.component';
+import { SigninComponent } from './home/signin/signin.component';
 import { TeaComponent } from './home/tea/tea.component';
 
 const routes: Routes = [
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: 'discover',
     component: DiscoverComponent,
+  },
+  {
+    path: 'signin',
+    component: SigninComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   },
   {
     path: ' ', 

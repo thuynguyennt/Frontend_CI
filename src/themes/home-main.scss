@@ -1,0 +1,107 @@
+@import 'variables';
+// .content {
+//     padding: 36px;
+//     .content-title {
+//         width: 60%;
+//         h1 {
+//             font-size: 2.5rem;
+//             color: $brown;
+//             margin-bottom: 36px;
+//         }
+//         p {
+//             font-size: 18px;
+//             line-height: 1.5rem;
+//         }
+//     }
+//     .content-image {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-top: 54px;
+//         text-align: center;
+//         .iten-price {
+//             margin-top: 16px;
+//             span {
+//                 font-weight: bold;
+//             }
+//         }
+//     }
+// }
+
+.main-head {
+    img {
+        width: 100%;
+        height: 50%;
+    }
+    button {
+        position: relative;
+        top: -8rem;
+        padding: 1rem 3rem;
+        color: $pink;
+        background-color: transparent;
+        border: 1px solid $brown;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    button:hover {
+        color: $brown;
+        background-color: $pink;
+    }
+    
+    .image-add {
+        margin-top: -1rem;
+        .discover-add {
+            margin-left: 70%;
+        }
+    }
+    .web-image {
+        margin-top: -3.5rem;
+        .HCO-sen {
+            margin-left: 70%;
+        }
+        .web_1 {
+            margin-left: 20%;
+        }
+    }
+}
+.main-info {
+    width: 100%;
+    display: flex;
+    margin-top: -3.5rem;
+
+    .address {
+       padding: 36px;
+        background-image: url("../assets/theme/homepage-STORE_1.jpg");
+        width: 50%;
+        color: $white;
+        display: flex;
+        h1 {
+            width: 50%;
+        }
+        p {
+            margin-top: 36px;
+            font-weight: bold;
+            line-height: 1.5rem;
+        }
+    }
+    .infomation {
+        padding: 36px;
+        width: 50%;
+        background-image: url("../assets/theme/bg2.jpg");
+        .info-item {
+            display: flex;
+            align-items: center;
+            p {
+                font-weight: bold;
+            }
+            img {
+                width: 20%;
+                height: 50%;
+                padding-right: 1rem;
+              
+            }
+        }
+        .info-center {
+            padding: 1.5rem 0;
+        }
+    }
+}

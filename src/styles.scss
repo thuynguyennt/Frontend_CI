@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    .main {
+        width: 100%
+    }
+}
+
+@import './themes/header.scss';
+@import './themes/footer.scss';
+@import './themes/home-main.scss';
+@import './themes/discover-add.scss';
+@import './themes/tea.scss';
+@import './themes/coffee.scss';
+@import './themes/contact.scss';
+@import './themes/signin.scss';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
